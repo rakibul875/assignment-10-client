@@ -21,6 +21,8 @@ const SingUpForm = () => {
     if(data){
         alert('Sign Up Successful')
         redirect('/signin')
+    }else{
+        alert(error.message)
     }
   };
   return (
