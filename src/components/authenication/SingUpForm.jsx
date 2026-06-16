@@ -157,7 +157,7 @@ const SingUpForm = () => {
         </form>
 
         <p className="text-xs text-gray-500 text-center mt-8 font-light">
-          Already have an account?{" "}
+          Already have an account?
           <Link
             href={`/signin`}
             className="text-gray-300 hover:text-white font-semibold transition-colors"
